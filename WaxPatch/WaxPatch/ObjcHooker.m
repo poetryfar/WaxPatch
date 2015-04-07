@@ -12,10 +12,18 @@
 @implementation ObjcHooker
 - (void)installHooker{
 }
-- (void)addTargetClass:(Class)tarClass targetMethod:(SEL)tarSel originClass:(Class)orgClass originMethod:(SEL)orgMethod{
-    IMP originImp  = class_getMethodImplementation(orgClass, orgMethod);
-    Method originMethod = class_getInstanceMethod(orgClass, orgMethod);
+- (void)addTargetClass:(Class)tarClass targetMethod:(SEL)tarSel originClass:(Class)orgClass originMethod:(SEL)orgSel{
+    IMP originImp  = class_getMethodImplementation(orgClass, orgSel);
+    Method originMethod = class_getInstanceMethod(orgClass, orgSel);
     const char  *originParam = method_getTypeEncoding(originMethod);
     class_addMethod(tarClass, tarSel, originImp, originParam);
 }
+
+- (void)exchangeMethodTarClass:(Class)tarClass targetSel:(SEL)tarSel  originClass:(Class)orgClass originSel:(SEL)orgSel{
+    Method originMethod  = class_getInstanceMethod(orgClass, orgSel);
+    Method targetMethod  = class_getInstanceMethod(tarClass,  tarSel);
+    method_exchangeImplementations(originMethod,targetMethod);
+}
+
+
 @end

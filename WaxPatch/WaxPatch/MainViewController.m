@@ -24,4 +24,8 @@
     return cell;
 }
 
+- (NSString*)getName{
+    return @"pengbi";
+}
+
 @end

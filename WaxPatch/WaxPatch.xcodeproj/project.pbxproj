@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B8301B781AD294990095E836 /* ObjcHooker.m in Sources */ = {isa = PBXBuildFile; fileRef = B8301B771AD294990095E836 /* ObjcHooker.m */; };
+		B8F5C59A1AD3DF380040F8A9 /* MainObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F5C5991AD3DF380040F8A9 /* MainObject.m */; };
 		FD14D39115D4326700DB029A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD14D39015D4326700DB029A /* MainViewController.m */; };
 		FDEA8A5615CD1EBD0030B539 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDEA8A5515CD1EBD0030B539 /* UIKit.framework */; };
 		FDEA8A5815CD1EBD0030B539 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDEA8A5715CD1EBD0030B539 /* Foundation.framework */; };
@@ -77,6 +78,8 @@
 /* Begin PBXFileReference section */
 		B8301B761AD294990095E836 /* ObjcHooker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjcHooker.h; sourceTree = "<group>"; };
 		B8301B771AD294990095E836 /* ObjcHooker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjcHooker.m; sourceTree = "<group>"; };
+		B8F5C5981AD3DF380040F8A9 /* MainObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainObject.h; sourceTree = "<group>"; };
+		B8F5C5991AD3DF380040F8A9 /* MainObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainObject.m; sourceTree = "<group>"; };
 		FD14D38F15D4326600DB029A /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		FD14D39015D4326700DB029A /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		FDEA8A5115CD1EBD0030B539 /* WaxPatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaxPatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -258,6 +261,8 @@
 				FDEA8A6515CD1EBD0030B539 /* AppDelegate.m */,
 				B8301B761AD294990095E836 /* ObjcHooker.h */,
 				B8301B771AD294990095E836 /* ObjcHooker.m */,
+				B8F5C5981AD3DF380040F8A9 /* MainObject.h */,
+				B8F5C5991AD3DF380040F8A9 /* MainObject.m */,
 				FDEA8AD815CD21810030B539 /* ProtocolLoader.h */,
 				FDEA8ADB15D0BE360030B539 /* wax */,
 				FDEA8BCE15D120200030B539 /* minizip */,
@@ -582,6 +587,7 @@
 				FDEA8B9E15D0BE360030B539 /* ltm.c in Sources */,
 				FDEA8B9F15D0BE360030B539 /* lundump.c in Sources */,
 				FDEA8BA015D0BE360030B539 /* lvm.c in Sources */,
+				B8F5C59A1AD3DF380040F8A9 /* MainObject.m in Sources */,
 				FDEA8BA115D0BE360030B539 /* lzio.c in Sources */,
 				FDEA8BA215D0BE360030B539 /* print.c in Sources */,
 				FDEA8BB915D0BE360030B539 /* wax.m in Sources */,
