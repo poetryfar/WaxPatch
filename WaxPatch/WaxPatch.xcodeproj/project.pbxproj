@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B8301B781AD294990095E836 /* ObjcHooker.m in Sources */ = {isa = PBXBuildFile; fileRef = B8301B771AD294990095E836 /* ObjcHooker.m */; };
 		FD14D39115D4326700DB029A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD14D39015D4326700DB029A /* MainViewController.m */; };
 		FDEA8A5615CD1EBD0030B539 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDEA8A5515CD1EBD0030B539 /* UIKit.framework */; };
 		FDEA8A5815CD1EBD0030B539 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDEA8A5715CD1EBD0030B539 /* Foundation.framework */; };
@@ -74,6 +75,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B8301B761AD294990095E836 /* ObjcHooker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjcHooker.h; sourceTree = "<group>"; };
+		B8301B771AD294990095E836 /* ObjcHooker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjcHooker.m; sourceTree = "<group>"; };
 		FD14D38F15D4326600DB029A /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		FD14D39015D4326700DB029A /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		FDEA8A5115CD1EBD0030B539 /* WaxPatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaxPatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -253,6 +256,8 @@
 			children = (
 				FDEA8A6415CD1EBD0030B539 /* AppDelegate.h */,
 				FDEA8A6515CD1EBD0030B539 /* AppDelegate.m */,
+				B8301B761AD294990095E836 /* ObjcHooker.h */,
+				B8301B771AD294990095E836 /* ObjcHooker.m */,
 				FDEA8AD815CD21810030B539 /* ProtocolLoader.h */,
 				FDEA8ADB15D0BE360030B539 /* wax */,
 				FDEA8BCE15D120200030B539 /* minizip */,
@@ -588,6 +593,7 @@
 				FDEA8BBF15D0BE360030B539 /* wax_struct.m in Sources */,
 				FDEA8BDA15D1202E0030B539 /* ZipArchive.mm in Sources */,
 				FDEA8BDB15D120320030B539 /* ioapi.c in Sources */,
+				B8301B781AD294990095E836 /* ObjcHooker.m in Sources */,
 				FDEA8BDC15D120360030B539 /* mztools.c in Sources */,
 				FDEA8BDD15D120390030B539 /* unzip.c in Sources */,
 				FDEA8BDE15D1203D0030B539 /* zip.c in Sources */,
